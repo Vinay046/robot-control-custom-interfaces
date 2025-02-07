@@ -16,11 +16,11 @@ find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
-  "msg/SetPosition.msg"
+  "msg/SetGroupVelocities.msg"
+  "msg/MotorStatus.msg"
 )
 
 set(srv_files
-  "srv/GetPosition.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
